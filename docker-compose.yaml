@@ -8,3 +8,4 @@ services:
     container_name: avesha-doc-landing
     ports:
       - '5050:80'
+    command: npm start
