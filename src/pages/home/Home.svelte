@@ -1,8 +1,8 @@
 <script>
-	import Card from '../../component/Card.svelte';
-	import { cards } from './constant.js';
-	import Button from '../../component/Button.svelte';
-	import Project from '../../component/Project.svelte';
+	import Card from '@/component/Card.svelte';
+	import { cards } from '@/pages/home/constant.js';
+	import Button from '@/component/Button.svelte';
+	import Project from '@/component/Project.svelte';
 </script>
 
 <div class="title-wrapper">
@@ -30,7 +30,7 @@
 <div class="project-wrapper">
 	<div class="project-heading">
 		<div class="project-typography">
-			<p class="project-title">OpenSource Projects</p>
+			<p class="title">OpenSource Projects</p>
 			<p class="subtitle">
 				This section provides a high-level introduction and understanding of Kubeslice,This section
 				prion and understanding of Kubeslice,

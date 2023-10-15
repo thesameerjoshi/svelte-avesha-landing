@@ -1,12 +1,15 @@
-import KubeSlice from '../../assets/KubeSlice.svg';
-import KubeSliceManager from '../../assets/KubeSliceManager.svg';
-import SamartScaler from '../../assets/SmartScaler.svg';
-import STD from '../../assets/STD.svg';
+import KubeSlice from '/src/assets/KubeSlice.svg';
+import KubeSliceManager from '/src/assets/KubeSliceManager.svg';
+import SamartScaler from '/src/assets/SmartScaler.svg';
+import STD from '/src/assets/STD.svg';
 
 const cards = [
 	{
 		title: 'Kubeslice',
-		image: KubeSlice,
+		image: {
+			url: KubeSlice,
+			alt: 'Kubeslice'
+		},
 		description: 'This section provides a high-level introduction and understanding of Kubeslice,',
 		link: 'https://docs.kubeslice.io',
 		points: [
@@ -19,7 +22,10 @@ const cards = [
 	},
 	{
 		title: 'KubeSlice Manager',
-		image: KubeSliceManager,
+		image: {
+			url: KubeSliceManager,
+			alt: 'Kubeslice Manager'
+		},
 		description: 'This section provides a high-level introduction and understanding of Kubeslice,',
 		link: 'https://docs.kubeslice.io',
 		points: [
@@ -32,7 +38,10 @@ const cards = [
 	},
 	{
 		title: 'Smart Scaler',
-		image: SamartScaler,
+		image: {
+			url: SamartScaler,
+			alt: 'Smart Scaler'
+		},
 		description: 'This section provides a high-level introduction and understanding of Kubeslice,',
 		link: 'https://docs.kubeslice.io',
 		points: [
@@ -45,7 +54,10 @@ const cards = [
 	},
 	{
 		title: 'Smart Traffic Director',
-		image: STD,
+		image: {
+			url: STD,
+			alt: 'Smart Traffic Director'
+		},
 		description: 'This section provides a high-level introduction and understanding of Kubeslice,',
 		link: 'https://docs.kubeslice.io',
 		points: [
@@ -58,11 +70,11 @@ const cards = [
 	}
 ];
 
-const opensourcePoints = [
+const points = [
 	{ point: 'What is kubeslice', link: 'https://docs.kubeslice.io' },
 	{ point: 'High level architecture', link: 'https://docs.kubeslice.io' },
 	{ point: 'Kubeslice components', link: 'https://docs.kubeslice.io' },
 	{ point: 'Key features', link: 'https://docs.kubeslice.io' }
 ];
 
-export { cards, opensourcePoints as points };
+export { cards, points };
