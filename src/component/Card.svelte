@@ -1,6 +1,6 @@
 <script>
-	import Arrow from '../assets/arrow.svg';
 	import Point from './Point.svelte';
+	import Arrow from '@/assets/arrow.svg';
 	export let title;
 	export let image;
 	export let description;
@@ -14,7 +14,7 @@
 		<div class="card-head">
 			<div class="card-image">
 				<div class="card-image-wrapper">
-					<img src={image} alt="KubeSlice" />
+					<img src={image.url} alt={image.alt} />
 				</div>
 				<p class="card-title">{title}</p>
 			</div>
@@ -29,8 +29,10 @@
 		</div>
 	</div>
 	<div class="card-link">
-		<a class="small-link" href={link} rel="noreferrer">Let’s get started </a>
-		<img src={Arrow} alt="Arrow" />
+		<a class="small-link" href={link} rel="noreferrer">
+			Let’s get started
+			<img src={Arrow} alt="Arrow" />
+		</a>
 	</div>
 </div>
 
