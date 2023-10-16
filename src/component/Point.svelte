@@ -1,7 +1,7 @@
 <script>
-	import OrangePoint from '../assets/OrangePoint.svg';
-	import GreenPoint from '../assets/GreenPoint.svg';
-	import BluePoint from '../assets/BluePoint.svg';
+	import OrangePoint from '@/assets/OrangePoint.svg';
+	import GreenPoint from '@/assets/GreenPoint.svg';
+	import BluePoint from '@/assets/BluePoint.svg';
 
 	export let variant = 'blue';
 	export let text = '';

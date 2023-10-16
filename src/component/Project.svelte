@@ -1,8 +1,8 @@
 <script>
-	import Kubeie from '../assets/Kubie.svg';
-	import OpenSource from '../assets/OpenSource.svg';
-	import Arrow from '../assets/arrow.svg';
-	import { points } from '../pages/home/constant';
+	import Kubeie from '@/assets/Kubie.svg';
+	import OpenSource from '@/assets/OpenSource.svg';
+	import Arrow from '@/assets/arrow.svg';
+	import { points } from '@/pages/home/constant';
 	import Point from './Point.svelte';
 </script>
 
