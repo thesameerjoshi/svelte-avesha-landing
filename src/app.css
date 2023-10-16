@@ -63,7 +63,7 @@ a {
 .card-main-wrapper {
 	display: flex;
 	gap: 20px;
-	align-items: center;
+	align-items: stretch;
 	justify-content: center;
 }
 
@@ -190,7 +190,6 @@ a {
 	display: flex;
 	flex-direction: column;
 	gap: 12px;
-	/* width: 100%; */
 	width: 272px;
 }
 
@@ -198,14 +197,21 @@ a {
 	.card-main-wrapper {
 		flex-wrap: wrap;
 	}
+	.container {
+		padding: 98px 30px 77px 30px;
+	}
+}
+
+@media screen and (max-width: 1145px) {
 	.project-points-wrapper {
-		flex-wrap: wrap;
+		flex-direction: column;
 	}
 }
 
 @media screen and (max-width: 900px) {
 	.container {
 		padding: 32px;
+		gap: 40px;
 	}
 	.card-wrapper {
 		flex-direction: column;
@@ -213,6 +219,8 @@ a {
 	}
 	.project-points-wrapper {
 		flex-direction: column;
+		padding: 20px 30px;
+		gap: 30px;
 	}
 	.project-card-point-wrapper {
 		width: auto;
@@ -236,6 +244,7 @@ a {
 @media screen and (max-width: 650px) {
 	.project-point {
 		flex-direction: column;
+		gap: 12px;
 	}
 }
 
