@@ -21,8 +21,9 @@
 			This section provides a high-level introduction and understanding of Kubeslice,
 		</p>
 		<div class="card-link">
-			<a class="small-link" href="https://docs.avesha.io" rel="noreferrer">Let’s get started </a>
-			<img src={Arrow} alt="Arrow" />
+			<a class="small-link" href="https://docs.avesha.io" rel="noreferrer"
+				>Let’s get started <img src={Arrow} alt="Arrow" /></a
+			>
 		</div>
 	</div>
 	<div class="project-point">

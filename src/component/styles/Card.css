@@ -71,6 +71,10 @@
 	height: 24px;
 	border-radius: 4px;
 }
+.card-point-image img {
+	width: 16px;
+	height: 16px;
+}
 
 .card-point-description {
 	color: #616060;

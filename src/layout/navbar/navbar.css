@@ -1,0 +1,31 @@
+header {
+	width: 100%;
+	max-width: 1440px;
+	background-color: #fff;
+	text-align: center;
+	margin-bottom: 10px;
+	display: flex;
+	padding: 10px;
+	justify-content: space-between;
+	align-items: center;
+	position: sticky;
+	top: 0;
+	margin: 0;
+	z-index: 2;
+}
+
+.nav-button-group {
+	display: flex;
+	display: flex;
+	gap: 16px;
+}
+
+@media screen and (max-width: 650px) {
+	.brand-logo a img {
+		width: auto;
+		height: 35px;
+	}
+	.nav-button-group {
+		gap: 12px;
+	}
+}
