@@ -10,8 +10,18 @@
 		</a>
 	</div>
 	<div class="nav-button-group">
-		<Button variant="primary" btnText="Contact Us" btnLink="https://avesha.io/contact-us" />
-		<Button variant="secondary" btnText="Free Trial" btnLink="https://community.aveshalabs.io/" />
+		<Button
+			target="_blank"
+			variant="primary"
+			btnText="Contact Us"
+			btnLink="https://avesha.io/contact-us"
+		/>
+		<Button
+			target="_blank"
+			variant="secondary"
+			btnText="Free Trial"
+			btnLink="https://community.aveshalabs.io/"
+		/>
 	</div>
 </header>
 

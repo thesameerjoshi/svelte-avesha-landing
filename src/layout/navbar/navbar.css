@@ -5,7 +5,7 @@ header {
 	text-align: center;
 	margin-bottom: 10px;
 	display: flex;
-	padding: 10px;
+	padding: 5px;
 	justify-content: space-between;
 	align-items: center;
 	position: sticky;
@@ -21,6 +21,9 @@ header {
 }
 
 @media screen and (max-width: 650px) {
+	header {
+		padding: 10px;
+	}
 	.brand-logo a img {
 		width: auto;
 		height: 35px;

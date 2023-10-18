@@ -47,7 +47,7 @@ footer {
 
 .footer-tcp {
 	display: flex;
-	gap: 1rem;
+	gap: 56px;
 }
 .tcp-link {
 	color: #fff;
@@ -61,10 +61,7 @@ footer {
 	display: flex;
 	align-items: center;
 	gap: 16px;
-}
-.footer-logo a img {
-	width: 20px;
-	height: 20px;
+	margin-right: 40px;
 }
 
 .footer-links-card {
@@ -98,6 +95,9 @@ footer {
 		flex-direction: column;
 		gap: 64px;
 	}
+	.footer-logo {
+		margin-right: 0;
+	}
 }
 @media screen and (max-width: 900px) {
 	.footer-links-card {
@@ -123,6 +123,9 @@ footer {
 }
 
 @media screen and (max-width: 500px) {
+	.footer-tcp {
+		gap: 16px;
+	}
 	.footer-navigation {
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
