@@ -1,0 +1,114 @@
+[
+	{
+		"title": "Kubeslice",
+		"description": "This section provides a high-level introduction and understanding of Kubeslice.",
+		"link": "https://docs.avesha.io/documentation/enterprise",
+		"image": {
+			"url": "/assets/KubeSlice.svg",
+			"alt": "Kubeslice"
+		},
+		"variant": "orange",
+		"points": [
+			{
+				"point": "What is Kubeslice?",
+				"link": "https://docs.kubeslice.io"
+			},
+			{
+				"point": "High level architecture",
+				"link": "https://docs.kubeslice.io"
+			},
+			{
+				"point": "Kubeslice components",
+				"link": "https://docs.kubeslice.io"
+			},
+			{
+				"point": "Key features",
+				"link": "https://docs.kubeslice.io"
+			}
+		]
+	},
+	{
+		"title": "KubeSlice Manager",
+		"description": "This section provides a high-level introduction and understanding of Kubeslice Manager.",
+		"link": "https://docs.avesha.io/documentation/enterprise/1.3.0/category/kubeslice-manager",
+		"image": {
+			"url": "/assets/KubeSliceManager.svg",
+			"alt": "Kubeslice Manager"
+		},
+		"variant": "orange",
+		"points": [
+			{
+				"point": "What is Kubeslice?",
+				"link": "https://docs.kubeslice.io"
+			},
+			{
+				"point": "High level architecture",
+				"link": "https://docs.kubeslice.io"
+			},
+			{
+				"point": "Kubeslice components",
+				"link": "https://docs.kubeslice.io"
+			},
+			{
+				"point": "Key features",
+				"link": "https://docs.kubeslice.io"
+			}
+		]
+	},
+	{
+		"title": "Smart Scaler",
+		"description": "This section provides a high-level introduction and understanding of Smart Scaler.",
+		"link": "https://docs.avesha.io/documentation/enterprise-smartscaler",
+		"image": {
+			"url": "/assets/SmartScaler.svg",
+			"alt": "Smart Scaler"
+		},
+		"variant": "green",
+		"points": [
+			{
+				"point": "What is Kubeslice?",
+				"link": "https://docs.kubeslice.io"
+			},
+			{
+				"point": "High level architecture",
+				"link": "https://docs.kubeslice.io"
+			},
+			{
+				"point": "Kubeslice components",
+				"link": "https://docs.kubeslice.io"
+			},
+			{
+				"point": "Key features",
+				"link": "https://docs.kubeslice.io"
+			}
+		]
+	},
+	{
+		"title": "Smart Traffic Director",
+		"description": "This section provides a high-level introduction and understanding of Smart Traffic Director.",
+		"link": "https://docs.avesha.io/documentation/enterprise-gtd",
+		"image": {
+			"url": "/assets/STD.svg",
+			"alt": "Smart Traffic Director"
+		},
+		"variant": "green",
+		"points": [
+			{
+				"point": "What is Kubeslice?",
+				"link": "https://docs.kubeslice.io"
+			},
+			{
+				"point": "High level architecture",
+				"link": "https://docs.kubeslice.io"
+			},
+			{
+				"point": "Kubeslice components",
+				"link": "https://docs.kubeslice.io"
+			},
+			{
+				"point": "Key features",
+				"link": "https://docs.kubeslice.io"
+			}
+		]
+	}
+]

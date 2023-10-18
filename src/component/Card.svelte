@@ -1,12 +1,15 @@
 <script>
 	import Point from './Point.svelte';
-	import Arrow from '@/assets/arrow.svg';
-	export let title;
-	export let image;
-	export let description;
-	export let link;
-	export let points;
-	export let variant;
+	import Arrow from '/assets/arrow.svg';
+	export let title = '';
+	export let image = {
+		url: '#',
+		alt: ''
+	};
+	export let description = '';
+	export let link = '#';
+	export let points = [];
+	export let variant = 'orange';
 </script>
 
 <div class="card-wrapper">
@@ -29,7 +32,7 @@
 		</div>
 	</div>
 	<div class="card-link">
-		<a class="small-link" href={link} rel="noreferrer">
+		<a class="small-link" target="_blank" href={link} rel="noreferrer">
 			Let’s get started
 			<img src={Arrow} alt="Arrow" />
 		</a>
