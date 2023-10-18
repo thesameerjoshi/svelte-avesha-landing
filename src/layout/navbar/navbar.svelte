@@ -1,5 +1,5 @@
 <script>
-	import AveshaLogo from '@/assets/logo/AveshaDoc.svg';
+	import AveshaLogo from '/assets/logo/AveshaDoc.svg';
 	import Button from '@/component/Button.svelte';
 </script>
 

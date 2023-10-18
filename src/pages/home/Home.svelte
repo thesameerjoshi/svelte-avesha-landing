@@ -1,8 +1,9 @@
 <script>
 	import Card from '@/component/Card.svelte';
-	import { cards } from '@/pages/home/constant.js';
 	import Button from '@/component/Button.svelte';
 	import Project from '@/component/Project.svelte';
+	import data from '@/data/product.json';
+	const isDataEmpty = Object.keys(data).length === 0;
 </script>
 
 <main class="container">
@@ -15,25 +16,27 @@
 			>.
 		</p>
 	</div>
-	<div class="card-main-wrapper">
-		{#each cards as card}
-			<Card
-				title={card.title}
-				image={card.image}
-				description={card.description}
-				link={card.link}
-				points={card.points}
-				variant={card.variant}
-			/>
-		{/each}
-	</div>
+	{#if !isDataEmpty}
+		<div class="card-main-wrapper">
+			{#each data as card}
+				<Card
+					title={card.title}
+					image={card.image}
+					description={card.description}
+					link={card.link}
+					points={card.points}
+					variant={card.variant}
+				/>
+			{/each}
+		</div>
+	{/if}
 	<div class="project-wrapper">
 		<div class="project-heading">
 			<div class="project-typography">
 				<p class="project-title">OpenSource Projects</p>
 				<p class="subtitle">
 					This section provides a high-level introduction and understanding of Kubeslice,This
-					section prion and understanding of Kubeslice,
+					section prion and understanding of Kubeslice.
 				</p>
 			</div>
 			<div class="button-group">
@@ -41,13 +44,13 @@
 					target="_blank"
 					variant="primary"
 					btnText="START CONTRIBUTING"
-					btnLink="https://github.com/kubeslice/docs"
+					btnLink="https://github.com/kubeslice"
 				/>
 				<Button
 					target="_blank"
 					variant="secondary"
 					btnText="JOIN COMMUNITY"
-					btnLink="https://docs.kubeslice.io"
+					btnLink="https://communityinviter.com/apps/kubernetes/community"
 				/>
 			</div>
 			<Project />

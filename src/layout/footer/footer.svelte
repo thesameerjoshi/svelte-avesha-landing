@@ -1,9 +1,9 @@
 <script>
-	import Avesha from '@/assets/logo/Avesha-L.svg';
-	import X from '@/assets/logo/X.svg';
-	import LInkedIn from '@/assets/logo/Linkedin.svg';
-	import Slack from '@/assets/logo/Slack.svg';
-	import YT from '@/assets/logo/YT.svg';
+	import Avesha from '/assets/logo/Avesha-L.svg';
+	import X from '/assets/logo/X.svg';
+	import LInkedIn from '/assets/logo/Linkedin.svg';
+	import Slack from '/assets/logo/Slack.svg';
+	import YT from '/assets/logo/YT.svg';
 	import { footerData } from '@/pages/home/constant';
 	import FooterNav from '@/component/FooterNav.svelte';
 </script>
@@ -12,7 +12,7 @@
 	<div class="footer-container">
 		<div class="footer-head">
 			<div class="footer-typography">
-				<a href="https://avesha.io">
+				<a href="https://avesha.io" target="_blank">
 					<img src={Avesha} alt="Avesha Logo" />
 				</a>
 				<p class="footer-brand-text">Simplifying Kubernetes Operations with AI</p>

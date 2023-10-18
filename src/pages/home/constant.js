@@ -1,7 +1,7 @@
-import KubeSlice from '/src/assets/KubeSlice.svg';
-import KubeSliceManager from '/src/assets/KubeSliceManager.svg';
-import SamartScaler from '/src/assets/SmartScaler.svg';
-import STD from '/src/assets/STD.svg';
+import KubeSlice from '/assets/KubeSlice.svg';
+import KubeSliceManager from '/assets/KubeSliceManager.svg';
+import SamartScaler from '/assets/SmartScaler.svg';
+import STD from '/assets/STD.svg';
 
 const cards = [
 	{

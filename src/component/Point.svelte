@@ -1,7 +1,7 @@
 <script>
-	import OrangePoint from '@/assets/OrangePoint.svg';
-	import GreenPoint from '@/assets/GreenPoint.svg';
-	import BluePoint from '@/assets/BluePoint.svg';
+	import OrangePoint from '/assets/OrangePoint.svg';
+	import GreenPoint from '/assets/GreenPoint.svg';
+	import BluePoint from '/assets/BluePoint.svg';
 
 	export let variant = 'blue';
 	export let text = '';
@@ -27,7 +27,7 @@
 	let selectedColor = color[variant];
 </script>
 
-<a class="card-point" href={link}>
+<a class="card-point" href={link} target="_blank">
 	<span
 		class="card-point-image"
 		style={`background: ${selectedColor.background}; border: ${selectedColor.border};`}

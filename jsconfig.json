@@ -29,13 +29,7 @@
 		// }
 		"baseUrl": "src",
 		"paths": {
-			"@/*": ["*"],
-			"@layout/*": ["layout/*"],
-			"@components/*": ["components/*"],
-			"@pages/*": ["pages/*"],
-			"@styles/*": ["styles/*"],
-			"@lib/*": ["lib/*"],
-			"@assets/*": ["assets/*"]
+			"@/*": ["*"]
 		}
 	},
 	/**

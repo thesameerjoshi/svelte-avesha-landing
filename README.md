@@ -1,34 +1,39 @@
-![alt text](src/assets/Kubie.svg 'Kubeslice')
+# Avesha Doc Landing Page
 
-# Kubeslice Landing Page
-
-This project repository contains the landing page for Kubeslice
+This project repository contains the landing page for Avesha's Platform Documentation
 
 ## Getting Started
 
      - NodeJS
      - Docker(optional)
 
-### Fork this repository and install the dependencies:
+### Clone this repository and install the dependencies:
 
 ```bash
 npm install
 ```
 
-### To run this project use this command:
+### To run this project locally
 
 ```bash
 npm start
 ```
 
-### Run this command to build the static site
+### To build the site run
 
 ```bash
 npm run build
 ```
 
-### Run this site with docker and docker-compose
+### To run the project using docker
 
 ```bash
 docker-compose up -d --build
 ```
+
+### To change the links or any content in the cards
+
+- Navigate to the src/data folder
+- Make Changes in product.json file
+
+**_Note:_** Make sure to maintain the exesting object structure in json file
