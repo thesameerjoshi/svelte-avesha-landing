@@ -1,7 +1,5 @@
 <script>
-	import Home from '@/pages/home/Home.svelte';
+	import Layout from '@/layout/layout.svelte';
 </script>
 
-<main class="container">
-	<Home />
-</main>
+<Layout />

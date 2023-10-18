@@ -1,7 +1,7 @@
 <script>
-	import Kubeie from '@/assets/Kubie.svg';
-	import OpenSource from '@/assets/OpenSource.svg';
-	import Arrow from '@/assets/arrow.svg';
+	import Kubeie from '/assets/Kubie.svg';
+	import OpenSource from '/assets/OpenSource.svg';
+	import Arrow from '/assets/arrow.svg';
 	import { points } from '@/pages/home/constant';
 	import Point from './Point.svelte';
 </script>
@@ -21,8 +21,9 @@
 			This section provides a high-level introduction and understanding of Kubeslice,
 		</p>
 		<div class="card-link">
-			<a class="small-link" href="https://docs.avesha.io" rel="noreferrer">Let’s get started </a>
-			<img src={Arrow} alt="Arrow" />
+			<a class="small-link" href="https://kubeslice.io" rel="noreferrer"
+				>Let’s get started <img src={Arrow} alt="Arrow" /></a
+			>
 		</div>
 	</div>
 	<div class="project-point">
