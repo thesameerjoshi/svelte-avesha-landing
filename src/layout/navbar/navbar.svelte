@@ -5,7 +5,7 @@
 
 <header>
 	<div class="brand-logo">
-		<a href="https://kubeslice.io">
+		<a href="https://docs.avesha.io">
 			<img src={AveshaLogo} alt="Avesha Logo" />
 		</a>
 	</div>

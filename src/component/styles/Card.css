@@ -60,8 +60,14 @@
 
 .card-point {
 	display: flex;
-	align-items: center;
+	align-items: flex-start;
 	gap: 16px;
+}
+
+.card-point:hover {
+	.card-point-description {
+		color: #2868f3;
+	}
 }
 .card-point-image {
 	display: flex;
@@ -84,6 +90,11 @@
 	min-height: 24px;
 	display: flex;
 	align-items: center;
+	transition: color 0.5s;
+}
+
+.card-link {
+	width: fit-content;
 }
 
 .card-link a {

@@ -4,7 +4,5 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    image: svelte-doc-landing
-    container_name: avesha-doc-landing
     ports:
       - '5050:80'

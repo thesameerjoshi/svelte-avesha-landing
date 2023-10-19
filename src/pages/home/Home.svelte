@@ -18,7 +18,7 @@
 	</div>
 	{#if !isDataEmpty}
 		<div class="card-main-wrapper">
-			{#each data as card}
+			{#each data.cardData as card}
 				<Card
 					title={card.title}
 					image={card.image}

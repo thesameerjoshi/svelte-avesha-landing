@@ -13,6 +13,7 @@ p {
 a {
 	color: #2868f3;
 	text-decoration: none;
+	width: fit-content;
 }
 
 .container {
@@ -22,7 +23,7 @@ a {
 	justify-content: center;
 	max-width: 1440px;
 	gap: 80px;
-	margin-top: 30px;
+	margin-top: 40px;
 }
 
 .title-wrapper {
@@ -34,7 +35,10 @@ a {
 }
 
 .title {
-	color: #4569b1;
+	background: linear-gradient(92deg, #12153e 5.57%, #2868f3 95.97%);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 	text-align: center;
 	font-size: 48px;
 	font-weight: 700;
@@ -132,6 +136,7 @@ a {
 	font-size: 16px;
 	font-weight: 600;
 	line-height: 20px;
+	font-family: 'Bai Jamjuree';
 }
 
 .btn-text-2 {
@@ -139,6 +144,7 @@ a {
 	font-size: 16px;
 	font-weight: 600;
 	line-height: 20px;
+	font-family: 'Bai Jamjuree';
 }
 
 .project-image {
@@ -196,9 +202,6 @@ a {
 @media screen and (max-width: 1440px) {
 	.card-main-wrapper {
 		flex-wrap: wrap;
-	}
-	.container {
-		padding: 0px 30px 77px 30px;
 	}
 }
 

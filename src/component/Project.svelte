@@ -2,8 +2,9 @@
 	import Kubeie from '/assets/Kubie.svg';
 	import OpenSource from '/assets/OpenSource.svg';
 	import Arrow from '/assets/arrow.svg';
-	import { points } from '@/pages/home/constant';
 	import Point from './Point.svelte';
+	import data from '@/data/product.json';
+	const isDataEmpty = Object.keys(data).length === 0;
 </script>
 
 <div class="project-points-wrapper">
@@ -26,16 +27,18 @@
 			>
 		</div>
 	</div>
-	<div class="project-point">
-		<div class="project-card-point-wrapper">
-			{#each points as point}
-				<Point text={point.point} link={point.link} />
-			{/each}
+	{#if !isDataEmpty}
+		<div class="project-point">
+			<div class="project-card-point-wrapper">
+				{#each data.points as point}
+					<Point text={point.point} link={point.link} />
+				{/each}
+			</div>
+			<div class="project-card-point-wrapper">
+				{#each data.points as point}
+					<Point text={point.point} link={point.link} />
+				{/each}
+			</div>
 		</div>
-		<div class="project-card-point-wrapper">
-			{#each points as point}
-				<Point text={point.point} link={point.link} />
-			{/each}
-		</div>
-	</div>
+	{/if}
 </div>
