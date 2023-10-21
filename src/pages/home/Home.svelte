@@ -10,7 +10,7 @@
 	<div class="title-wrapper">
 		<h1 class="title">Welcome to Avesha’s Platform Documentation</h1>
 		<p class="subtitle">
-			Here you will find all the information you need about Avesaha’s Platform and you can also ask
+			Here you will find all the information you need about Avesha’s Platform and you can also ask
 			for a
 			<a href="https://kubeslice.io/contact-us" target="_blank"><span class="link">support</span></a
 			>.
@@ -35,21 +35,21 @@
 			<div class="project-typography">
 				<p class="project-title">OpenSource Projects</p>
 				<p class="subtitle">
-					This section provides a high-level introduction and understanding of Kubeslice,This
-					section prion and understanding of Kubeslice.
+					This section provides a high-level introduction and understanding of Kubeslice. Something
+					about Kubeslice Opensource.
 				</p>
 			</div>
 			<div class="button-group">
 				<Button
 					target="_blank"
 					variant="primary"
-					btnText="START CONTRIBUTING"
+					btnText="Start Contributing"
 					btnLink="https://github.com/kubeslice"
 				/>
 				<Button
 					target="_blank"
 					variant="secondary"
-					btnText="JOIN COMMUNITY"
+					btnText="Join Community"
 					btnLink="https://communityinviter.com/apps/kubernetes/community"
 				/>
 			</div>
