@@ -8,11 +8,10 @@
 
 <main class="container">
 	<div class="title-wrapper">
-		<h1 class="title">Welcome to Avesha’s Platform Documentation</h1>
+		<h1 class="title">Welcome to Avesha Documentation</h1>
 		<p class="subtitle">
-			Here you will find all the information you need about Avesha’s Platform and you can also ask
-			for a
-			<a href="https://kubeslice.io/contact-us" target="_blank"><span class="link">support</span></a
+			Explore our guides for more insights on Avesha products. You can also contact our
+			<a href="https://kubeslice.io/contact-us" target="_blank"><span class="link">Support</span></a
 			>.
 		</p>
 	</div>
@@ -35,8 +34,8 @@
 			<div class="project-typography">
 				<p class="project-title">OpenSource Projects</p>
 				<p class="subtitle">
-					This section provides a high-level introduction and understanding of Kubeslice. Something
-					about Kubeslice Opensource.
+					Avesha has an opensource edition of KubeSlice, which can be used to run multi-cluster
+					applications.
 				</p>
 			</div>
 			<div class="button-group">

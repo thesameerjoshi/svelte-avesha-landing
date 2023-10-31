@@ -8,7 +8,7 @@
 	border-radius: 8px;
 	border: 1px solid #e8e8e8;
 }
-.card-head-wrapper {
+.card-link-wrapper {
 	display: flex;
 	flex-direction: column;
 	gap: 24px;
