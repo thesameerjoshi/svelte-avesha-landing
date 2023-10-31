@@ -96,26 +96,26 @@
 			"points": [
 				{
 					"point": "Overview",
-					"link": "https://docs.avesha.io/documentation/enterprise-gtd/0.1.0/"
+					"link": "https://docs.avesha.io/documentation/enterprise-smtd/0.1.0/"
 				},
 				{
 					"point": "Components",
-					"link": "https://docs.avesha.io/documentation/enterprise-gtd/0.1.0/category/components"
+					"link": "https://docs.avesha.io/documentation/enterprise-smtd/0.1.0/category/components"
 				},
 				{
 					"point": "Quick Start Guide",
-					"link": "https://docs.avesha.io/documentation/enterprise-gtd/0.1.0/get-started/quick-start-guide"
+					"link": "https://docs.avesha.io/documentation/enterprise-smtd/0.1.0/get-started/quick-start-guide"
 				},
 				{
 					"point": "Confiiguration",
-					"link": "https://docs.avesha.io/documentation/enterprise-gtd/0.1.0/category/configure-smtd"
+					"link": "https://docs.avesha.io/documentation/enterprise-smtd/0.1.0/category/configure-smtd"
 				}
 			]
 		}
 	],
 	"points1": [
 		{
-			"point": "What is Kubeslice",
+			"point": "What is Kubeslice?",
 			"link": "https://kubeslice.io/documentation/open-source/1.1.0/overview/"
 		},
 		{
