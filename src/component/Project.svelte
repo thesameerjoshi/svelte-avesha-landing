@@ -19,7 +19,8 @@
 			</div>
 		</div>
 		<p class="card-subtitle">
-			This section provides a high-level introduction and understanding of Kubeslice,
+			Learn about using KubeSlice to run multi-cluster applications on a cloud agnostic Kubernetes
+			operator called slice. You can also contribute to this opensource edition.
 		</p>
 		<div class="card-link">
 			<a class="small-link" href="https://kubeslice.io" rel="noreferrer"
@@ -30,12 +31,12 @@
 	{#if !isDataEmpty}
 		<div class="project-point">
 			<div class="project-card-point-wrapper">
-				{#each data.points as point}
+				{#each data.points1 as point}
 					<Point text={point.point} link={point.link} />
 				{/each}
 			</div>
 			<div class="project-card-point-wrapper">
-				{#each data.points as point}
+				{#each data.points2 as point}
 					<Point text={point.point} link={point.link} />
 				{/each}
 			</div>

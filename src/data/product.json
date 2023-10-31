@@ -2,7 +2,7 @@
 	"cardData": [
 		{
 			"title": "Kubeslice",
-			"description": "This section provides a high-level introduction and understanding of Kubeslice.",
+			"description": "Learn about using KubeSlice to run multi-cluster applications on a cloud agnostic Kubernetes operator called slice.",
 			"link": "https://docs.avesha.io/documentation/enterprise",
 			"image": {
 				"url": "/assets/KubeSlice.svg",
@@ -12,25 +12,25 @@
 			"points": [
 				{
 					"point": "What is Kubeslice?",
-					"link": "https://docs.kubeslice.io"
+					"link": "https://docs.avesha.io/documentation/enterprise/1.3.0/overview/"
 				},
 				{
-					"point": "High level architecture",
-					"link": "https://docs.kubeslice.io"
+					"point": "Key Features",
+					"link": "https://docs.avesha.io/documentation/enterprise/1.3.0/overview/features"
 				},
 				{
-					"point": "Kubeslice components",
-					"link": "https://docs.kubeslice.io"
+					"point": "Licensing",
+					"link": "https://docs.avesha.io/documentation/enterprise/1.3.0/category/licensing"
 				},
 				{
-					"point": "Key features",
-					"link": "https://docs.kubeslice.io"
+					"point": "Quick Start Guide",
+					"link": "https://docs.avesha.io/documentation/enterprise/1.3.0/get-started/kubeslice-quick-start"
 				}
 			]
 		},
 		{
 			"title": "KubeSlice Manager",
-			"description": "This section provides a high-level introduction and understanding of Kubeslice Manager.",
+			"description": "Learn about using the KubeSlice Manager, a powerful management interface that enhances the KubeSlice Enterprise administration.",
 			"link": "https://docs.avesha.io/documentation/enterprise/1.3.0/category/kubeslice-manager",
 			"image": {
 				"url": "/assets/KubeSliceManager.svg",
@@ -39,26 +39,26 @@
 			"variant": "orange",
 			"points": [
 				{
-					"point": "What is Kubeslice?",
-					"link": "https://docs.kubeslice.io"
+					"point": "Endpoint",
+					"link": "https://docs.avesha.io/documentation/enterprise/1.3.0/kubeslice-manager/kubeslice-manager-endpoint"
 				},
 				{
-					"point": "High level architecture",
-					"link": "https://docs.kubeslice.io"
+					"point": "Login",
+					"link": "https://docs.avesha.io/documentation/enterprise/1.3.0/kubeslice-manager/kubeslice-manager-login"
 				},
 				{
-					"point": "Kubeslice components",
-					"link": "https://docs.kubeslice.io"
+					"point": "IdP Integration",
+					"link": "https://docs.avesha.io/documentation/enterprise/1.3.0/kubeslice-manager/kubeslice-manager-idp-integration"
 				},
 				{
-					"point": "Key features",
-					"link": "https://docs.kubeslice.io"
+					"point": "Slice Management",
+					"link": "https://docs.avesha.io/documentation/enterprise/1.3.0/category/slice-management"
 				}
 			]
 		},
 		{
 			"title": "Smart Scaler",
-			"description": "This section provides a high-level introduction and understanding of Smart Scaler.",
+			"description": "Learn about the Smart Scaler solution that prevents the runaway costs of heavily over-provisioned Kubernetes clusters by utilizing AI/Reinforcement Learning models.",
 			"link": "https://docs.avesha.io/documentation/enterprise-smartscaler",
 			"image": {
 				"url": "/assets/SmartScaler.svg",
@@ -67,27 +67,27 @@
 			"variant": "green",
 			"points": [
 				{
-					"point": "What is Kubeslice?",
-					"link": "https://docs.kubeslice.io"
+					"point": "Overview",
+					"link": "https://docs.avesha.io/documentation/enterprise-smartscaler/2.0.0/overview/"
 				},
 				{
-					"point": "High level architecture",
-					"link": "https://docs.kubeslice.io"
+					"point": "Smart Scaler Agent",
+					"link": "https://docs.avesha.io/documentation/enterprise-smartscaler/2.0.0/overview/smart-scaler-agents"
 				},
 				{
-					"point": "Kubeslice components",
-					"link": "https://docs.kubeslice.io"
+					"point": "Event Autoscaler Agent",
+					"link": "https://docs.avesha.io/documentation/enterprise-smartscaler/2.0.0/overview/event-autoscaler"
 				},
 				{
-					"point": "Key features",
-					"link": "https://docs.kubeslice.io"
+					"point": "Configuration",
+					"link": "https://docs.avesha.io/documentation/enterprise-smartscaler/2.0.0/category/configure-smart-scaler"
 				}
 			]
 		},
 		{
 			"title": "Smart Traffic Director",
-			"description": "This section provides a high-level introduction and understanding of Smart Traffic Director.",
-			"link": "https://docs.avesha.io/documentation/enterprise-gtd",
+			"description": "Learn about the Smart Traffic Director that provides intelligent traffic routing for applications deployed on clusters in varied locations that share a common DNS name.",
+			"link": "https://docs.avesha.io/documentation/enterprise-smtd/0.1.0",
 			"image": {
 				"url": "/assets/STD.svg",
 				"alt": "Smart Traffic Director"
@@ -95,40 +95,58 @@
 			"variant": "green",
 			"points": [
 				{
-					"point": "What is Kubeslice?",
-					"link": "https://docs.kubeslice.io"
+					"point": "Overview",
+					"link": "https://docs.avesha.io/documentation/enterprise-smtd/0.1.0/"
 				},
 				{
-					"point": "High level architecture",
-					"link": "https://docs.kubeslice.io"
+					"point": "Components",
+					"link": "https://docs.avesha.io/documentation/enterprise-smtd/0.1.0/category/components"
 				},
 				{
-					"point": "Kubeslice components",
-					"link": "https://docs.kubeslice.io"
+					"point": "Quick Start Guide",
+					"link": "https://docs.avesha.io/documentation/enterprise-smtd/0.1.0/get-started/quick-start-guide"
 				},
 				{
-					"point": "Key features",
-					"link": "https://docs.kubeslice.io"
+					"point": "Confiiguration",
+					"link": "https://docs.avesha.io/documentation/enterprise-smtd/0.1.0/category/configure-smtd"
 				}
 			]
 		}
 	],
-	"points": [
+	"points1": [
 		{
-			"point": "What is Kubeslice",
-			"link": "https://docs.kubeslice.io"
+			"point": "What is Kubeslice?",
+			"link": "https://kubeslice.io/documentation/open-source/1.1.0/overview/"
 		},
 		{
-			"point": "High level architecture",
-			"link": "https://docs.kubeslice.io"
+			"point": "KubeSlice Components",
+			"link": "https://kubeslice.io/documentation/open-source/1.1.0/overview/components"
 		},
 		{
-			"point": "High level architecture",
-			"link": "https://docs.kubeslice.io"
+			"point": "Key Features",
+			"link": "https://kubeslice.io/documentation/open-source/1.1.0/overview/features"
 		},
 		{
-			"point": "Key features",
-			"link": "https://docs.kubeslice.io"
+			"point": "Playground",
+			"link": "https://kubeslice.io/documentation/open-source/1.1.0/category/playground"
+		}
+	],
+	"points2": [
+		{
+			"point": "Install KubeSlice",
+			"link": "https://kubeslice.io/documentation/open-source/1.1.0/category/install-kubeslice"
+		},
+		{
+			"point": "Slice Operations",
+			"link": "https://kubeslice.io/documentation/open-source/1.1.0/category/slice-operations"
+		},
+		{
+			"point": "Events",
+			"link": "https://kubeslice.io/documentation/open-source/1.1.0/category/events"
+		},
+		{
+			"point": "Metrics",
+			"link": "https://kubeslice.io/documentation/open-source/1.1.0/category/metrics"
 		}
 	]
 }
