@@ -11,8 +11,7 @@
 		<h1 class="title">Welcome to Avesha Documentation</h1>
 		<p class="subtitle">
 			Explore our guides for more insights on Avesha products. You can also contact our
-			<a href="https://kubeslice.io/contact-us" target="_blank"><span class="link">Support</span></a
-			>.
+			<a href="https://avesha.io/support" target="_blank"><span class="link">Support</span></a>.
 		</p>
 	</div>
 	{#if !isDataEmpty}
