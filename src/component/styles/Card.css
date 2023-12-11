@@ -8,7 +8,7 @@
 	border-radius: 8px;
 	border: 1px solid #e8e8e8;
 }
-.card-head-wrapper {
+.card-link-wrapper {
 	display: flex;
 	flex-direction: column;
 	gap: 24px;
@@ -60,8 +60,14 @@
 
 .card-point {
 	display: flex;
-	align-items: center;
+	align-items: flex-start;
 	gap: 16px;
+}
+
+.card-point:hover {
+	.card-point-description {
+		color: #2868f3;
+	}
 }
 .card-point-image {
 	display: flex;
@@ -70,6 +76,12 @@
 	width: 24px;
 	height: 24px;
 	border-radius: 4px;
+
+}
+.card-point-image img {
+	width: 24px;
+	height: 16px;
+
 }
 
 .card-point-description {
@@ -77,6 +89,15 @@
 	font-size: 14px;
 	font-weight: 500;
 	line-height: normal;
+	min-height: 24px;
+	display: flex;
+	align-items: center;
+	transition: color 0.5s;
+}
+
+
+.card-link {
+	width: fit-content;
 }
 
 .card-link a {

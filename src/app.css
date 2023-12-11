@@ -13,6 +13,7 @@ p {
 a {
 	color: #2868f3;
 	text-decoration: none;
+	width: fit-content;
 }
 
 .container {
@@ -21,9 +22,8 @@ a {
 	align-items: center;
 	justify-content: center;
 	max-width: 1440px;
-	margin: auto;
-	padding: 98px 87px 77px 87px;
 	gap: 80px;
+	margin-top: 40px;
 }
 
 .title-wrapper {
@@ -31,11 +31,14 @@ a {
 	width: 100%;
 	display: flex;
 	flex-direction: column;
-	gap: 12px;
+	gap: 16px;
 }
 
 .title {
-	color: #4569b1;
+	background: linear-gradient(92deg, #12153e 5.57%, #2868f3 95.97%);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 	text-align: center;
 	font-size: 48px;
 	font-weight: 700;
@@ -43,7 +46,7 @@ a {
 }
 
 .subtitle {
-	color: #12153e;
+	color: #616060;
 	text-align: center;
 	font-size: 20px;
 	font-weight: 400;
@@ -62,7 +65,9 @@ a {
 
 .card-main-wrapper {
 	display: flex;
-	gap: 20px;
+
+	gap: 24px;
+r
 	align-items: stretch;
 	justify-content: center;
 }
@@ -79,7 +84,7 @@ a {
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-	gap: 24px;
+	gap: 32px;
 }
 .opensource {
 	display: flex;
@@ -91,7 +96,7 @@ a {
 .project-typography {
 	display: flex;
 	flex-direction: column;
-	gap: 12px;
+	gap: 16px;
 	max-width: 680px;
 	width: 100%;
 }
@@ -133,6 +138,7 @@ a {
 	font-size: 16px;
 	font-weight: 600;
 	line-height: 20px;
+	font-family: 'Bai Jamjuree';
 }
 
 .btn-text-2 {
@@ -140,6 +146,7 @@ a {
 	font-size: 16px;
 	font-weight: 600;
 	line-height: 20px;
+	font-family: 'Bai Jamjuree';
 }
 
 .project-image {
@@ -179,6 +186,8 @@ a {
 	border-radius: 8px;
 	border: 1px solid #e8e8e8;
 	background: #fff;
+	margin-top: 28px;
+	align-items: center;
 }
 
 .project-point {
@@ -205,12 +214,15 @@ a {
 @media screen and (max-width: 1145px) {
 	.project-points-wrapper {
 		flex-direction: column;
+		align-items: baseline;
+
+
 	}
 }
 
 @media screen and (max-width: 900px) {
 	.container {
-		padding: 32px;
+		padding: 0px;
 		gap: 40px;
 	}
 	.card-wrapper {
@@ -221,12 +233,18 @@ a {
 		flex-direction: column;
 		padding: 20px 30px;
 		gap: 30px;
+
+		margin-top: 16px;
+
 	}
 	.project-card-point-wrapper {
 		width: auto;
 	}
+	.project-heading {
+		gap: 24px;
+	}
 	.button-group {
-		flex-direction: column;
+		gap: 12px;
 	}
 	.title {
 		font-size: 28px;
@@ -236,8 +254,17 @@ a {
 	.subtitle {
 		font-size: 16px;
 	}
+	.project-title {
+		font-size: 24px;
+	}
 	.link {
 		font-size: 16px;
+	}
+	.btn-text-1 {
+		font-size: 12px;
+	}
+	.btn-text-2 {
+		font-size: 12px;
 	}
 }
 
@@ -245,6 +272,19 @@ a {
 	.project-point {
 		flex-direction: column;
 		gap: 12px;
+
+	}
+	.btn-1 {
+		padding: 8px 12px;
+	}
+	.btn-2 {
+		padding: 8px 12px;
+	}
+}
+@media screen and (max-width: 500px) {
+	.project-title {
+		font-size: 20px;
+
 	}
 }
 
