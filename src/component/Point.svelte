@@ -3,6 +3,7 @@
 	import GreenPoint from '/assets/GreenPoint.svg';
 	import BluePoint from '/assets/BluePoint.svg';
 
+
 	export let variant = 'blue';
 	export let text = '';
 	export let link = '#';

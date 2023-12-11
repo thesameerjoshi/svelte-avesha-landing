@@ -1,7 +1,9 @@
 <script>
+
 	import Kubeie from '/assets/Kubie.svg';
 	import OpenSource from '/assets/OpenSource.svg';
 	import Arrow from '/assets/arrow.svg';
+
 	import Point from './Point.svelte';
 	import data from '@/data/product.json';
 	const isDataEmpty = Object.keys(data).length === 0;

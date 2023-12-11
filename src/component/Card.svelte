@@ -30,12 +30,14 @@
 				<Point {variant} text={point.point} link={point.link} />
 			{/each}
 		</div>
+
 		<div class="card-link">
 			<a class="small-link" target="_blank" href={link} rel="noreferrer">
 				Let’s get started
 				<img src={Arrow} alt="Arrow" />
 			</a>
 		</div>
+
 	</div>
 </div>
 

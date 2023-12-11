@@ -65,7 +65,9 @@ a {
 
 .card-main-wrapper {
 	display: flex;
+
 	gap: 24px;
+r
 	align-items: stretch;
 	justify-content: center;
 }
@@ -204,12 +206,17 @@ a {
 	.card-main-wrapper {
 		flex-wrap: wrap;
 	}
+	.container {
+		padding: 98px 30px 77px 30px;
+	}
 }
 
 @media screen and (max-width: 1145px) {
 	.project-points-wrapper {
 		flex-direction: column;
 		align-items: baseline;
+
+
 	}
 }
 
@@ -226,7 +233,9 @@ a {
 		flex-direction: column;
 		padding: 20px 30px;
 		gap: 30px;
+
 		margin-top: 16px;
+
 	}
 	.project-card-point-wrapper {
 		width: auto;
@@ -263,6 +272,7 @@ a {
 	.project-point {
 		flex-direction: column;
 		gap: 12px;
+
 	}
 	.btn-1 {
 		padding: 8px 12px;
@@ -274,6 +284,7 @@ a {
 @media screen and (max-width: 500px) {
 	.project-title {
 		font-size: 20px;
+
 	}
 }
 

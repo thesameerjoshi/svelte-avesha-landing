@@ -76,10 +76,12 @@
 	width: 24px;
 	height: 24px;
 	border-radius: 4px;
+
 }
 .card-point-image img {
 	width: 24px;
 	height: 16px;
+
 }
 
 .card-point-description {
@@ -92,6 +94,7 @@
 	align-items: center;
 	transition: color 0.5s;
 }
+
 
 .card-link {
 	width: fit-content;

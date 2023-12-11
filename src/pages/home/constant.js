@@ -1,3 +1,4 @@
+
 const footerData = [
 	{
 		title: 'Products',
@@ -107,3 +108,4 @@ const footerData = [
 ];
 
 export { footerData };
+
